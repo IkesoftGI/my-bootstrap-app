@@ -1,0 +1,46 @@
+/* Keep existing styles */
+.navbar {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  color: #212529;
+}
+
+.navbar-dark {
+  background-color: #0078d4;
+  color: white;
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #d0e4f7;
+}
+
+/* Theme toggle button */
+.theme-toggle-btn {
+  margin-left: 1.5rem;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 6px;
+  background-color: transparent;
+  color: inherit;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+.theme-toggle-btn:hover {
+  color: #ffd700;
+}

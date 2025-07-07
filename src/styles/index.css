@@ -1,0 +1,57 @@
+/* Base light theme */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #1a1a1a;
+  --accent-color: #2563eb; /* You can personalize this */
+}
+
+/* Dark theme overrides */
+[data-theme='dark'] {
+  --bg-color: #1a1a1a;
+  --text-color: #f0f0f0;
+  --accent-color: #60a5fa;
+}
+
+/* Apply to the global layout */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+  color: var(--accent-color);
+}
+
+.markdown-body {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+.markdown-body h1, .markdown-body h2 {
+  margin-top: 1.5rem;
+}
+.markdown-body ul {
+  padding-left: 1.5rem;
+}
+.markdown-body code {
+  background-color: #f6f8fa;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: monospace;
+}
+.markdown-body {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+.markdown-body h1, .markdown-body h2 {
+  margin-top: 1.5rem;
+}
+.markdown-body ul {
+  padding-left: 1.5rem;
+}
+.markdown-body code {
+  background-color: #f6f8fa;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: monospace;
+}

@@ -1,0 +1,6 @@
+# My Bootstrap App - Deployment Info
+
+**GitHub Repo**: https://github.com/IkesoftGI/my-bootstrap-app  
+**Netlify Live URL**: https://unrivaled-tanuki-902255.netlify.app  
+**GitHub Username**: IkesoftGI  
+**Netlify Email**: iaosafo2022@gmail.com  

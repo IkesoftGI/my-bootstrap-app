@@ -93,4 +93,55 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+  /* === Theme Toggle Styles === */
+.light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.dark {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+.light a {
+  color: #0d6efd;
+}
+.dark a {
+  color: #90caf9;
+}
+
+.light .btn-outline-light {
+  border-color: #212529;
+  color: #212529;
+}
+.dark .btn-outline-light {
+  border-color: #f8f9fa;
+  color: #f8f9fa;
+}
+
+.dark .btn-outline-light:hover,
+.light .btn-outline-light:hover {
+  background-color: transparent;
+  opacity: 0.8;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, a, button {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
 }
