@@ -22,7 +22,53 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
-  {
+{
+  id: "ai-in-rural-education-deep",
+  title: "How We're Using AI to Support Rural Education",
+  date: "July 07, 2025",
+  readingTime: "6 min read",
+  excerpt: "AI is transforming rural education—empowering students, guiding parents, and unlocking new learning pathways through smartphones and digital tools.",
+  content: `
+## How We're Using AI to Support Rural Education
+
+In many rural communities across Ghana, technology is creating new educational possibilities. Artificial Intelligence (AI) is no longer a tool reserved for the elite—it’s reaching classrooms powered by solar panels and students supported by their parents’ smartphones.
+
+### The Rise of AI in Learning
+
+Today’s students can:
+- Use AI tutors to understand complex topics
+- Get instant answers to homework questions
+- Practice quizzes and self-tests without a teacher present
+
+> “Education is not a privilege—it’s a right. Technology helps level the playing field.”
+
+### Smartphones as a Lifeline
+
+Some parents, recognizing this opportunity, now allow their children to use their smartphones to:
+- Access ChatGPT and AI tools
+- Record lessons and listen offline
+- Watch tutorials in local languages
+
+This shift is reshaping the learning experience.
+
+### Our Community Projects
+
+As part of the Global Light Pulse initiative:
+- We introduce AI-powered learning booths
+- Train educators on using digital content
+- Partner with NGOs to distribute devices
+
+### Final Thoughts
+
+Rural education is being transformed—not just by devices, but by **hope**, **innovation**, and **collaboration**. At IkesoftGI, we believe AI belongs in every child’s toolbox—regardless of geography.
+  `,
+  image: "/images/ai-education.jpg",
+  author: "Isaac A. Osafo",
+  authorBio: "Founder of GLP Project. Passionate about tech for development.",
+  categories: ["AI", "Education", "Rural Development", "Ghana"],
+  comments: []
+},
+{
     id: "ai-in-rural-education",
     title: "How We're Using AI in Rural Education",
     date: "July 01, 2025",
@@ -166,6 +212,7 @@ Our goal is continuous improvement through transparent reporting.
         message: "AI is really powerful.",
         date: "2025-07-06T21:04:51.695065Z"
       }
+      
     ]
   }
 ];
